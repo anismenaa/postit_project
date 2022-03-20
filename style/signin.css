@@ -1,0 +1,55 @@
+.signIn_background{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.signin_cover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.signIn_form{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}
+
+.signIn_form form{
+    background-color: white;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;    width: 30%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signIn_form form>input{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.signIn_form form>label{
+    font-style: italic;
+}
+
+#signIn-btn{
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    background-color: rgb(240, 240, 37);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    font-weight: bold;
+}
+
+#error_identification{
+    font-style: italic;
+    color: red;
+}
